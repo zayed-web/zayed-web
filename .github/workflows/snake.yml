@@ -34,7 +34,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cd dist
+          # dist/ is created root-owned by the Docker action; publish from a writable copy
+          out="$RUNNER_TEMP/snake-out"
+          mkdir -p "$out"
+          cp dist/snake-dark.svg dist/snake-light.svg "$out/"
+          cd "$out"
           git init -q -b output
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
