@@ -1,0 +1,19 @@
+{
+  "games": [
+    {
+      "id": "reclaim",
+      "name": "RECLAIM: After the Fall",
+      "pitch": "Isometric 3D post-apocalyptic survival game for Windows: scavenge dangerous loot zones, fight, craft, and build up your base. Semi-realistic visuals.",
+      "status": "In development",
+      "chips": ["Unity 6", "URP", "C#", "Windows"]
+    },
+    {
+      "id": "null-key",
+      "name": "Null Key",
+      "pitch": "Sci-fi action-adventure with a semi-realistic look, planned with Arabic and English support.",
+      "status": "On hold",
+      "chips": ["Unity", "C#", "Sci-fi", "Action-adventure", "Arabic + English (planned)"]
+    }
+  ],
+  "stack": ["Unity 6 (URP)", "C#", "Unity Input System", "Git", "GitHub"]
+}

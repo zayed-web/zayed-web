@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='178' viewBox='0 0 1200 178' role='img' aria-labelledby='t d'>
+<title id='t'>Null Key (On hold)</title><desc id='d'>Sci-fi action-adventure with a semi-realistic look, planned with Arabic and English support.</desc>
+<defs><linearGradient id='a' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#7046D6'/><stop offset='1' stop-color='#2F5FD0'/></linearGradient></defs>
+<rect x='1' y='1' width='1198' height='176' rx='14' fill='#F6F7FB' stroke='#DCE0EE' stroke-width='2'/>
+<rect x='1' y='1' width='8' height='176' rx='4' fill='url(#a)'/>
+<text x='48' y='62' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='32' font-weight='800' fill='#1A1D26'>Null Key</text>
+<rect x='1071' y='34' width='89' height='32' rx='16' fill='none' stroke='#5F6785' stroke-width='2'/>
+<circle cx='1087' cy='50' r='5' fill='#5F6785'/>
+<text x='1121.5' y='56' text-anchor='middle' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='15' font-weight='700' fill='#5F6785'>On hold</text>
+<text x='48' y='104' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='19' fill='#2E3448'>Sci-fi action-adventure with a semi-realistic look, planned with Arabic and English support.</text>
+<rect x='48' y='122' width='71' height='30' rx='15' fill='#E9ECF7' stroke='#DCE0EE'/><text x='83.5' y='142' text-anchor='middle' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='15' font-weight='600' fill='#2E3448'>Unity</text><rect x='129' y='122' width='46' height='30' rx='15' fill='#E9ECF7' stroke='#DCE0EE'/><text x='152' y='142' text-anchor='middle' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='15' font-weight='600' fill='#2E3448'>C#</text><rect x='185' y='122' width='80' height='30' rx='15' fill='#E9ECF7' stroke='#DCE0EE'/><text x='225' y='142' text-anchor='middle' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='15' font-weight='600' fill='#2E3448'>Sci-fi</text><rect x='275' y='122' width='166' height='30' rx='15' fill='#E9ECF7' stroke='#DCE0EE'/><text x='358' y='142' text-anchor='middle' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='15' font-weight='600' fill='#2E3448'>Action-adventure</text><rect x='451' y='122' width='252' height='30' rx='15' fill='#E9ECF7' stroke='#DCE0EE'/><text x='577' y='142' text-anchor='middle' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='15' font-weight='600' fill='#2E3448'>Arabic + English (planned)</text>
+</svg>

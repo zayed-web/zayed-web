@@ -1,0 +1,43 @@
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/snake.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Pinned to v3.5.0 by commit SHA so the action's code can't change silently.
+      - name: Generate snake SVGs (Nightforge palette)
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#BB9AF7&color_dots=#1A1D26,#2A3350,#3D5A9E,#5A80D6,#7AA2F7
+            dist/snake-light.svg?color_snake=#7046D6&color_dots=#EBEDF0,#C9D4F5,#9AB4EE,#5F86DE,#2F5FD0
+
+      # Publish to the 'output' branch with plain git (no third-party deploy action).
+      - name: Push to output branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd dist
+          git init -q -b output
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add snake-dark.svg snake-light.svg
+          git commit -q -m "Update contribution snake"
+          git push -q --force "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" output

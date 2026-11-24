@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="t d">
+  <title id="t">Zalfa</title>
+  <desc id="d">Solo indie dev building sci-fi action games in Unity</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F1117"/>
+      <stop offset="1" stop-color="#151a2b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#BB9AF7"/>
+      <stop offset="1" stop-color="#7AA2F7"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1f2436" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#7AA2F7" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7AA2F7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="300" rx="16" fill="url(#grid)"/>
+  <rect width="1280" height="300" rx="16" fill="url(#glow)"/>
+  <!-- HUD corner brackets -->
+  <g fill="none" stroke="#7AA2F7" stroke-width="3" stroke-linecap="square" opacity="0.8">
+    <path d="M28 64V28H64"/><path d="M1216 28H1252V64"/>
+    <path d="M28 236V272H64"/><path d="M1216 272H1252V236"/>
+  </g>
+  <!-- Isometric cube motif -->
+  <g transform="translate(1030 150)" fill="none" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M0 -84L73 -42V42L0 84L-73 42V-42Z" stroke="#7AA2F7" opacity="0.9"/>
+    <path d="M-73 -42L0 0L73 -42M0 0V84" stroke="#BB9AF7" opacity="0.9"/>
+    <path d="M0 -50L43 -25V25L0 50L-43 25V-25Z" stroke="#7DCFFF" opacity="0.45"/>
+  </g>
+  <text x="80" y="140" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="84" font-weight="800" letter-spacing="6" fill="url(#accent)">ZALFA</text>
+  <rect x="84" y="164" width="96" height="4" rx="2" fill="#E0AF68"/>
+  <text x="80" y="214" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#D8DEE9">Solo indie dev building sci-fi action games in Unity</text>
+  <text x="80" y="254" font-family="Cascadia Code, Consolas, Menlo, monospace" font-size="18" fill="#565F89">// Unity 6 · URP · C#</text>
+</svg>

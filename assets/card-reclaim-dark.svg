@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='206' viewBox='0 0 1200 206' role='img' aria-labelledby='t d'>
+<title id='t'>RECLAIM: After the Fall (In development)</title><desc id='d'>Isometric 3D post-apocalyptic survival game for Windows: scavenge dangerous loot zones, fight, craft, and build up your base. Semi-realistic visuals.</desc>
+<defs><linearGradient id='a' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#BB9AF7'/><stop offset='1' stop-color='#7AA2F7'/></linearGradient></defs>
+<rect x='1' y='1' width='1198' height='204' rx='14' fill='#151A2B' stroke='#2A3350' stroke-width='2'/>
+<rect x='1' y='1' width='8' height='204' rx='4' fill='url(#a)'/>
+<text x='48' y='62' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='32' font-weight='800' fill='#E6EBFF'>RECLAIM: After the Fall</text>
+<rect x='1011' y='34' width='149' height='32' rx='16' fill='none' stroke='#E0AF68' stroke-width='2'/>
+<circle cx='1027' cy='50' r='5' fill='#E0AF68'/>
+<text x='1091.5' y='56' text-anchor='middle' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='15' font-weight='700' fill='#E0AF68'>In development</text>
+<text x='48' y='104' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='19' fill='#C0CAF5'>Isometric 3D post-apocalyptic survival game for Windows: scavenge dangerous loot zones,</text><text x='48' y='132' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='19' fill='#C0CAF5'>fight, craft, and build up your base. Semi-realistic visuals.</text>
+<rect x='48' y='150' width='89' height='30' rx='15' fill='#1F2538' stroke='#2A3350'/><text x='92.5' y='170' text-anchor='middle' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='15' font-weight='600' fill='#C0CAF5'>Unity 6</text><rect x='147' y='150' width='54' height='30' rx='15' fill='#1F2538' stroke='#2A3350'/><text x='174' y='170' text-anchor='middle' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='15' font-weight='600' fill='#C0CAF5'>URP</text><rect x='211' y='150' width='46' height='30' rx='15' fill='#1F2538' stroke='#2A3350'/><text x='234' y='170' text-anchor='middle' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='15' font-weight='600' fill='#C0CAF5'>C#</text><rect x='267' y='150' width='89' height='30' rx='15' fill='#1F2538' stroke='#2A3350'/><text x='311.5' y='170' text-anchor='middle' font-family='Segoe UI, Inter, Helvetica, Arial, sans-serif' font-size='15' font-weight='600' fill='#C0CAF5'>Windows</text>
+</svg>
